@@ -21,3 +21,11 @@ Respektera FOREIGN KEY-kopplingar
 SELECT med JOIN (två tabeller)
 JOIN med tre tabeller
 COUNT() och GROUP BY för aggregering
+
+
+
+[User] ──< [Posts] ──< [Likes]
+   │          │
+   │          └──< [Comments]
+   │                   │
+   └───────────────────┘
